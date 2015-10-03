@@ -46,7 +46,7 @@
               <%= image_tag(recipe['image_url'], alt: recipe['title'], size: "300x300", class: "recipe-img") %>
               <span class="recipe-title-block">
                 <span class="recipe-title"><%= raw (shorten_name recipe['title']) %></span>
-                <span class="ranking"><%= filter_string recipe['social_rank'] %></span>
+                <span class="ranking"><%= filter_string recipe['social_rank'] %><br>rating</span>
               </span>
             <% end %>
           </div>
