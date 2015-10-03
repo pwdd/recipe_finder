@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a modified version of an assignment for Ruby on Rails: An Introduction, first part of Ruby on Rails Web Development Specialization (Coursera | Johns Hopkins University | October 2015)
 
-Things you may want to cover:
+Besides the requirements for the assignment, it
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* implements search box
+* implements links to previous and next pages
+* implements sorting by rating and trending (note: the API only allows sorting *before* searching, the same behavior happens on Food2Fork website)
+* has modified HTML structure (from table to columns)
+* uses Twitter Bootstrap framework
+* implements helpers and partial views
