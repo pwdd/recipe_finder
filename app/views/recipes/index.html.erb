@@ -46,6 +46,10 @@
 
       <div class="clearfix"></div>
 
+      <%= render "pagination" %>
+
+      <div class="clearfix"></div>
+
       <ul class="list-inline list-recipes">
         <% @recipes.each do |recipe| %>
         <li class="list-recipes-item">
@@ -63,6 +67,9 @@
       </ul>
     </div>
     <% end %>
+    <div class="clearfix"></div>
+
+    <%= render "pagination" %>
 
   </div>
 </div>

@@ -12,4 +12,14 @@ module RecipesHelper
   def filter_string(ranking)
     ranking = ranking.round(1)
   end
+
+  def pagination_next
+    number_next = @search_page.to_i + 1
+    number_next.to_s
+  end
+
+  def pagination_prev
+    number_prev = @search_page.to_i - 1
+    number_prev.to_s
+  end
 end

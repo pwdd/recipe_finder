@@ -1,0 +1,12 @@
+<form method="get" class="form-inline text-center form-pagination">
+  <div class="btn-group" role="group">
+    <input type="hidden" name="search" value="<%= @search_term %>">
+    <input type="hidden" name="sort" value="<%= @search_sort %>">
+    <% if pagination_prev.to_i >= 1 %>
+    <button type="submit" class="btn btn-default" name="page" value="<%= pagination_prev %>">previous</button>
+    <% end %>
+    <% if @recipes.size != 0 %>
+    <button type="submit" class="btn btn-default" name="page" value="<%= pagination_next %>">next</button>
+    <% end %>
+  </div>
+</form>
