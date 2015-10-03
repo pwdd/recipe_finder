@@ -14,7 +14,8 @@
 }
 
 .btn-recipe-search {
-  background-color: rgba(184, 0, 0, 0.5)
+  background-color: rgba(184, 0, 0, 0.5);
+  color: #ffffff;
 }
 
 .glyphicon-search {
@@ -81,4 +82,8 @@
 .int-search {
   max-width: 200px;
   margin: 30px auto;
+}
+
+#sorting-buttons {
+  margin-bottom: 20px;
 }
