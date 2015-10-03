@@ -8,7 +8,32 @@
 </head>
 <body>
 
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to 'Recipe Finder', {controller: "recipes", action: "index"}, class: "navbar-brand" %>
+    </div>
+  </div>
+</nav>
+
 <%= yield %>
+
+<footer class="navbar navbar-default">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Powered By Food2Fork.com</p>
+        <p>Modified version of an assigment for Ruby on Rails: An Introduction, first part of <a href="https://www.coursera.org/specializations/ruby-on-rails" target="_blank">Ruby on Rails Web Development Specialization</a></p>
+        <p>Coursera | Johns Hopkins University | October 2015</p>  
+      </div>
+      <div class="col-md-4">
+        <div>
+          <p>Source code at <a href="http://github.com/pwdd/recipe_finder">Github</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
